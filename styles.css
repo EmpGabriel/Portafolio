@@ -1,0 +1,119 @@
+/* Estilos generales */
+body {
+    font-family: 'Georgia', sans-serif;
+    margin: 0;
+    padding: 20px;
+    /*background-color: #5132ce;*/
+    background: linear-gradient(rgb(176, 119, 119), rgb(78, 66, 66));
+    color: #010101;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+}
+
+/* Estilo del encabezado */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 4;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #7f8389;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    color: #fefefe;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Estilo de las secciones */
+section {
+    background: #5e8bbb;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+    z-index: 3;
+}
+
+/* Estilo de los títulos de las secciones */
+h2 {
+    text-align: center;
+    color: #602c09;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ff00cc;
+    padding-bottom: 5px;
+}
+
+/* Estilo de las listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #aaaad5;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Estilo de las redes sociales */
+.socials {
+    margin-top: 10px;
+}
+
+.socials a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #1804f0;
+    font-weight: bold;
+}
+
+.socials a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo del texto */
+p {
+    margin: 0;
+    font-weight: bold;
+}
+
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.capa {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+    z-index: 1;
+}
